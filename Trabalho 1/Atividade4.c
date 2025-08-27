@@ -142,7 +142,7 @@ int main(int argc, char *argv[]) {
   erro = abs((prodI_original-prodI)/prodI_original);
   printf("\n");
   printf("produto Interno original: %f\nProduto interno concorrente: %f\n",prodI_original,prodI);
-  printf("Erro:   %.6f\n",erro);
+  printf("Erro:   %e\n", erro); 
   printf("Tempo de execução: %.6f seg\n",delta);
 
   //desaloca os espacos de memoria
